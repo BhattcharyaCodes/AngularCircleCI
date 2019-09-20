@@ -1,9 +1,9 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/my-project
+    working_directory: ~/AngularCircleCI  
     docker:
-      - image: circleci/node:4.8.2
+      - image: circleci/node:10.2-browsers
     steps:
       - checkout
       - restore_cache:
