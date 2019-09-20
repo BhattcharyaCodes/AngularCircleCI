@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/AngularCircleCI  
     docker:
-      - image: circleci/node:10.2-browsers
+      - image: circleci/node:10.9-browsers
     steps:
       - checkout
       - restore_cache:
