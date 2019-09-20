@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/ANGULARCIRCLECI
+    working_directory: ~/AngularCircleCI
     docker:
       -image: circleci/node:9.2-browsers
      steps:
